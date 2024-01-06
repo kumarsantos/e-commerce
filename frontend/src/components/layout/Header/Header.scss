@@ -1,0 +1,167 @@
+    
+    .navbar_container{
+        background-color:#131921;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 48px;
+        height: 80px;
+        box-sizing: border-box;
+
+        .logo{ 
+            width: 150px;
+            height: 60px; 
+          img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+    
+    .navbar_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background:none;
+        gap:32px;      
+
+       
+
+        .search{
+            background:inherit;
+            display: flex;
+            align-items: center;
+
+
+            select{
+                padding: 11px 12px;
+                font-weight: 600;
+                outline: none;
+                border: none;
+                cursor: pointer;
+                border-top-left-radius: 4px;
+                border-bottom-left-radius: 4px;
+                option{
+    
+                    font-size: 14px;
+
+                }
+    
+            }
+
+            input{
+                border: none;
+                font-size: 16px;
+                padding: 10px 12px;
+                min-width: 250px;
+                outline: none;
+                background-color:white;
+                
+            }
+           
+       span{ 
+        padding: 8px 12px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        cursor: pointer;
+        background-color: rgb(247, 197, 106);
+        transition: all 0.3 ease-in-out;
+        &:hover{
+            background-color: rgb(250, 187, 71);
+        }
+        svg{
+            font-size: 24px;
+            background:none;
+        }
+       }
+}
+    
+        .linkList{
+            display: flex;
+            align-items: center;
+            gap:16px;
+            background: none;
+      
+            
+            
+
+            .linkListItem{
+                list-style: none;
+                background: none;
+                display: inline-block;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                color: white;
+                cursor: pointer;
+                &:hover{
+                    color: rgb(243, 175, 164);
+                }
+                svg{
+                    background:none;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 22px;
+                    min-width: 28px;                
+}
+                
+                .link{
+                    padding: 4px 8px;
+                    border-radius: 4px;
+                    background-color: inherit;
+                    font-size: 12px;
+                    font-weight: 600;
+
+                    img{
+                        width:48px;
+                        height:48px;
+                        border-radius: 50px;
+                        object-fit: cover;
+                        border: 1px solid rgb(148, 134, 5);
+                    }
+
+                    
+                }
+                .initial{
+                    border-radius: 50px;
+                    padding: 12px;
+                    background-color: #ee1eaf;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    transition: all 0.2s ease-in-out;
+                    &:hover{
+                        background-color: #aa3a88;
+                        color: wheat;
+                    }
+                }
+               
+                .itemCount{
+                    height: 24px;
+                    width:24px;
+                    padding: 4px;
+                    background:rgb(252, 42, 5);
+                    position: absolute;
+                    top:6px;
+                    right:-16px;
+                    border-radius: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+

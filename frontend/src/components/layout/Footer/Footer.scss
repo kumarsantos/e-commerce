@@ -1,0 +1,98 @@
+
+.footer{
+    .backToTop{
+        background-color:#37475A;
+        cursor: pointer;
+        h3{
+            background-color: inherit;
+            text-align: center;
+            color: #FFF;
+            padding: 15px 0;
+            line-height: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            font-family: Roboto;
+            letter-spacing: 0.7px;
+
+        }
+        
+    }
+    .footer_wrapper{
+        background-color:#232F3E;
+        padding: 40px 80px;
+        display: flex;
+        flex:1;
+        justify-content: center;
+
+
+        .leftFooter{
+            background-color: inherit;
+            flex:6;
+            display: flex;
+            flex-direction: column;
+            gap:16px;
+            h4{
+                background-color: inherit;
+                color:white;
+                font-size: 24px;
+                margin-bottom: 24px;
+
+            }
+            p{
+                background-color: inherit;
+                color:white;
+            }
+            img{
+                background-color: inherit;
+                color:white;
+                margin-top: 16px;
+                height: 64px;
+                width: 40%;
+            }
+        }
+        .midFooter{
+            flex:3;
+            background-color: inherit;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap:16px;
+            h4{
+                background-color: inherit;
+                color:white;
+                font-size: 32px;
+                color: rgb(230, 37, 69);
+                margin-bottom: 24px;
+
+            }
+            p{
+                background-color: inherit;
+                color:white;
+            }
+        }
+        .rightFooter{
+            flex:3;
+            background-color: inherit;
+            display: flex;
+            gap:16px;
+            flex-direction: column;
+            text-align: right;
+
+            h4{
+                background-color: inherit;
+                color:white;
+                font-size: 24px;
+                margin-bottom: 24px;
+
+            }
+            a{
+                background-color: inherit;
+                color:white;
+                text-decoration: none;
+            } 
+          
+        
+        }
+
+    }
+}

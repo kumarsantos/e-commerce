@@ -1,0 +1,45 @@
+.CartItemCard{
+    display: flex;
+    padding: 1vmax;
+    height: 8vmax;
+    align-items: center;
+    box-sizing: border-box;
+    width:100%;
+    
+
+    img{
+        width: 5vmax;
+
+    }
+    div{
+        display: flex;
+        margin: 0.3vmax 1vmax;
+        flex-direction: column;
+        align-items: flex-start;
+        gap:3px;
+        p{
+            svg{
+
+                margin: 0px 4px 0px 0px;
+                color: tomato;
+                font: 100 1vmax 'Roboto';
+            }
+            display: flex;
+            align-items: flex-start;
+            color: tomato;
+            cursor: pointer;
+            font:300 0.9vmax 'Roboto';
+        }
+        a{
+            text-decoration: none;
+            color: rgba(24,24,24,0.815);
+            font:300 0.9vmax cursive;
+            
+        }
+        span{
+            font: 300 0.9vmax 'Roboto';
+            color: rgba(24,24,24,0.815);
+            
+        }
+    }
+}
